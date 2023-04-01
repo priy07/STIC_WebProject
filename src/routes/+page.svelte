@@ -2,7 +2,7 @@
 import Gallery from "./Components/Gallery.svelte";
 import HomePage from "./Components/HomePage.svelte";
 import Membership from "./Components/Membership.svelte";
-import Mentor from "./Mentor.svelte";
+import Mentor from "./Components/Mentor.svelte";
 
     
 </script>
