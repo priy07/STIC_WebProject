@@ -7,6 +7,7 @@
     import Membership from "../lib/Components/Membership.svelte";
     import Mentor from "../lib/Components/Mentor.svelte";
 	import Navbar from "../lib/Components/Navbar.svelte";
+    import Teams from "../lib/Components/Teams.svelte";
 </script>
 
 <main class="bg-[#0E0D0D] text-white">
@@ -18,6 +19,7 @@
 <Carousel />
 <Division/>
 <Membership/>
+<Teams/>
 <Footer />
 
 </main>
