@@ -6,7 +6,7 @@
 }
 
     </style>
-<main class="mt-10">
+<main class="pt-10">
     <div class="HomePage align-middle text-center h-[700px] pt-32">
         <h1 class="font-outfit font-medium text-xl leading-none text-white mb-12 lg:text-5xl md:text-4xl sm:text-3xl">Medi-Caps University</h1>
         <h1 class="font-outfit font-bold text-4xl leading-140 text-transparent bg-gradient-to-r from-blue-800 to-cyan-300 bg-clip-text text-center leading-[120%] lg:text-8xl md:text-7xl sm:text-5xl">Student’s Technical and<br> Innovation Club </h1>

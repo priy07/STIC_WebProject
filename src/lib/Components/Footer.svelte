@@ -34,13 +34,13 @@
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase text-white">Contact Us</h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">President</a>
+                    <a href="#" class="hover:text-white">President</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Vide-President</a>
+                    <a href="#" class="hover:text-white">Vide-President</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Stic Email</a>
+                    <a href="#" class="hover:text-white">Stic Email</a>
                 </li>
             </ul>
         </div>
@@ -48,13 +48,13 @@
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase text-white">Faculty Message</h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Chief Advisor</a>
+                    <a href="#" class="hover:text-white">Chief Advisor</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Faculty Coordinator</a>
+                    <a href="#" class="hover:text-white">Faculty Coordinator</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Dev Team</a>
+                    <a href="#" class="hover:text-white">Dev Team</a>
                 </li>
             </ul>
         </div>
@@ -67,10 +67,10 @@
                 <li class="">
                     <form class="flex flex-wrap items-end py-0.5">   
                         
-                        <input type="email" class="w-[220px] my-1.5 mr-2 rounded-3xl bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your Email" required>
+                        <input type="email" class="w-64 my-1.5 mr-2 rounded-3xl bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your Email" required>
                        
     
-                        <button type="submit" class="my-1.5 rounded-3xl inline-flex items-center py-2.5 px-8 text-sm font-medium text-white bg-[#00e4ff] border border-blue-700 hover:bg-[#5aeeff] focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <button type="submit" class="my-1.5 rounded-3xl inline-flex items-center py-2.5 px-8 text-sm font-medium text-white bg-[#00e4ff] border border-blue-700 hover:bg-[#10b8ca] focus:ring-1 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                             Subscribe
                         </button>
                 </form>
