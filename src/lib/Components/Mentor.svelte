@@ -21,7 +21,7 @@
 	<!--Dusre Sir wala section -->
 	<h1 class="text-7xl text-center pt-16">Faculty Co-ordinator</h1>
 
-	<div class="flex flex-col sm:flex-row justify-between rounded-lg sm:w-[40%] w-full p-20 relative">
+	<div class="flex flex-col sm:flex-row justify-between w-full p-20 relative">
 		<div class="sm:w-[50%] w-full m-auto">
 			<h2 class="text-5xl p-5">Prof. Arpit Deo</h2>
 			<p class="text-justify p-5">
