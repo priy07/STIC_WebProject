@@ -8,6 +8,8 @@
     import Mentor from "../lib/Components/Mentor.svelte";
 	import Navbar from "../lib/Components/Navbar.svelte";
     import Teams from "../lib/Components/Teams.svelte";
+    import About from "../lib/Components/About.svelte";
+    import Areyoureadypart from "../lib/Components/Areyoureadypart.svelte";
 </script>
 
 <main class="bg-[#0E0D0D] text-white">
@@ -16,10 +18,12 @@
 <HomePage/>
 <Mentor/>
 <Gallery/>
+<About/>
 <Carousel />
 <Division/>
 <Membership/>
 <Teams/>
+<Areyoureadypart/>
 <Footer />
 
 </main>
