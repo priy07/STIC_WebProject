@@ -1,5 +1,6 @@
 <script>
 	import Carousel from "./Components/Carousel.svelte";
+	import Division from "./Components/Division.svelte";
 	import Footer from "./Components/Footer.svelte";
     import Gallery from "./Components/Gallery.svelte";
     import HomePage from "./Components/HomePage.svelte";
@@ -17,6 +18,7 @@
 <Mentor/>
 <Gallery/>
 <Carousel />
+<Division/>
 <Membership/>
 <Footer />
 
