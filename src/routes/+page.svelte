@@ -7,8 +7,6 @@
     import Membership from "./Components/Membership.svelte";
     import Mentor from "./Components/Mentor.svelte";
 	import Navbar from "./Components/Navbar.svelte";
-
-    
 </script>
 
 <main class="bg-[#0E0D0D] text-white">
