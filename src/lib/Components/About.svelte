@@ -1,5 +1,10 @@
-<main>
-	<h1 class="text-5xl font-bold text-center my-4">About <span class="bg-gradient-to-r from-blue-500  to-cyan-500 inline-block text-transparent bg-clip-text">STIC</span></h1>
+<main class="pb-20">
+	<h1 class="text-5xl font-bold text-center my-4 mb-10">
+		About <span
+			class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
+			>STIC</span
+		>
+	</h1>
 
 	<p class="my-4 mx-4 px-16">
 		Students'​ Technical and Innovation Club (STIC) is the official techno-club of Medi-Caps
