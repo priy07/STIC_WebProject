@@ -1,4 +1,6 @@
 <main class=" px-40 py-11 ">
+  <h1 class="font-outfit font-medium text-[48px] leading-none text-white mb-12 text-center">STIC Spectrum</h1>
+
     <div
   id="carouselExampleCaptions"
   class="relative"
@@ -47,6 +49,7 @@
         </p>
       </div>
     </div>
+    
     <div
       class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
       data-te-carousel-item
@@ -128,5 +131,6 @@
       >Next</span
     >
   </button>
+  
 </div>
 </main>
