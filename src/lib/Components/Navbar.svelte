@@ -2,7 +2,7 @@
 <nav class="bg-black bg-opacity-10 backdrop-filter backdrop-blur-lg dark:bg-gray-900 fixed w-full z-20 top-0 left-0 dark:border-gray-600">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
     <a href="#" class="flex items-center">
-        <img src="#" class="h-12 mr-3" alt="Logo">
+        <img src="STIC NEW LOGO.png" class="h-12 mr-3" alt="Logo">
     </a>
     <div class="flex md:order-2">
         <button type="button" class="text-white bg-[#00e4ff] hover:bg-[#10b8ca] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Join Us</button>

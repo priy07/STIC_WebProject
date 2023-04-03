@@ -13,10 +13,6 @@
 				learning new skills and tools which are close to the industrial standards.
 			</p>
 		</div>
-
-		<div
-			class="top-0 right-0 gradient-radial absolute bg-gradient-to-tl blur-3xl overflow-hidden from-cyan-500 rounded-full w-[30%] h-[50%] opacity-70"
-		/>
 	</div>
 	<!--Dusre Sir wala section -->
 	<h1 class="xl-7xl lg:text-7xl md:text-5xl text-4xl text-center pt-16">Faculty Co-ordinator</h1>
@@ -33,9 +29,6 @@
 			</p>
 		</div>
 
-		<div
-			class="top-10 left-0 gradient-radial absolute bg-gradient-to-tl blur-3xl overflow-hidden from-cyan-500 rounded-full w-[30%] h-[50%] opacity-70"
-		/>
 		<div class="bg[url()] w-full sm:w-[40%] m-auto h-80 border border-slate-400" />
 	</div>
 </div>
