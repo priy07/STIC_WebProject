@@ -1,5 +1,46 @@
 
 <script src="https://kit.fontawesome.com/e837e124f1.js" crossorigin="anonymous">
+    const handles = [{
+        id:1,
+        'name':'Ishita Porwal',
+        'position':"President",
+        'photo':'',
+        'insta':'',
+        'linkedin':'',
+        'github':''
+    },{
+        id:2,
+        'name':'Aviral Jain',
+        'position':"Vice-President",
+        'photo':'',
+        'insta':'',
+        'linkedin':'',
+        'github':''
+    },{
+        id:3,
+        'name':'Chaitanya Shrimali',
+        'position':"Technical Head",
+        'photo':'',
+        'insta':'',
+        'linkedin':'',
+        'github':''
+    },{
+        id:4,
+        'name':'Darshita Porwal',
+        'position':"Non-Technical Head",
+        'photo':'',
+        'insta':'',
+        'linkedin':'',
+        'github':''
+    },{
+        id:5,
+        'name':'Shreyash chauhan',
+        'position':"Treasurer",
+        'photo':'',
+        'insta':'',
+        'linkedin':'',
+        'github':''
+    }]
 </script>
 
 <main>
@@ -22,10 +63,9 @@
     <!-- heading End -->
 
     <!-- card Started -->
-
     <section class="flex-wrap flex sm:flex-wrap  sm:flex-shrink justify-around my-10 ">
-        <div class="card sm:flex-wrap flex-wrap ">
-            <img class="rounded-full h-36 w-36" src='static/a8ab29bc-44ef-433c-9a19-568ba74d4487_Slice+a.png.webp'
+        <div class="card sm:flex-wrap flex-wrap px-24 pb-8 ">
+            <img class="rounded-full h-36 w-36" src='/testphoto.webp'
                 height="200" width="200">
 
             <h1 class="font-bold mt-5 text-xl">Aarohi Manchanda</h1>
@@ -52,8 +92,8 @@
             </section>
         </div>
         
-        <div class="card sm:flex-wrap flex-wrap ">
-            <img class="rounded-full h-36 w-36"  src='static/a8ab29bc-44ef-433c-9a19-568ba74d4487_Slice+a.png.webp" alt="image'
+        <div class="card sm:flex-wrap flex-wrap px-24 pb-8 ">
+            <img class="rounded-full h-36 w-36"  src='testphoto.webp' alt="image"
                 height="200" width="200">
 
             <h1 class="font-bold mt-5 text-xl">Aarohi Manchanda</h1>
@@ -81,5 +121,4 @@
         </div>
         
     </section>
-
 </main>
