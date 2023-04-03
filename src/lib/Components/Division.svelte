@@ -1,92 +1,80 @@
-<main class=" px-40 py-11 ">
-  <h1 class="font-outfit font-medium text-[48px] leading-none text-white mb-12 text-center">STIC Spectrum</h1>
-
-    <div
-  id="carouselExampleCaptions"
-  class="relative"
+<h1 class="font-outfit font-medium text-[48px] leading-none text-white text-center my-32 mb-12">Division</h1>
+<div
+  id="carouselExampleControls"
+  class="relative sm:px-24 mx-10"
   data-te-carousel-init
   data-te-carousel-slide>
-  <div
-    class="absolute right-0 bottom-0 left-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
-    data-te-carousel-indicators>
-    <button
-      type="button"
-      data-te-target="#carouselExampleCaptions"
-      data-te-slide-to="0"
-      data-te-carousel-active
-      class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-      aria-current="true"
-      aria-label="Slide 1"></button>
-    <button
-      type="button"
-      data-te-target="#carouselExampleCaptions"
-      data-te-slide-to="1"
-      class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-      aria-label="Slide 2"></button>
-    <button
-      type="button"
-      data-te-target="#carouselExampleCaptions"
-      data-te-slide-to="2"
-      class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-      aria-label="Slide 3"></button>
-  </div>
   <div
     class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
     <div
       class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-      data-te-carousel-active
       data-te-carousel-item
-      style="backface-visibility: hidden">
+      data-te-carousel-active>
       <img
-        src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(15).jpg"
+        src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
         class="block w-full"
-        alt="..." />
-      <div
-        class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-        <h5 class="text-xl">First slide label</h5>
-        <p>
-          Some representative placeholder content for the first slide.
-        </p>
-      </div>
-    </div>
-    
-    <div
-      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-      data-te-carousel-item
-      style="backface-visibility: hidden">
-      <img
-        src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(22).jpg"
-        class="block w-full"
-        alt="..." />
-      <div
-        class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-        <h5 class="text-xl">Second slide label</h5>
-        <p>
-          Some representative placeholder content for the second slide.
-        </p>
-      </div>
+        alt="Wild Landscape" />
+        <div class="color-black alignment"><p>Web development creates websites using programming languages like HTML and CSS, allowing organizations to establish an online presence and interact with customers in real-time. Developers use various skills to ensure the website meets requirements.</p></div>
     </div>
     <div
       class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-      data-te-carousel-item
-      style="backface-visibility: hidden">
+      data-te-carousel-item>
       <img
-        src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(23).jpg"
+        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
         class="block w-full"
-        alt="..." />
-      <div
-        class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-        <h5 class="text-xl">Third slide label</h5>
-        <p>
-          Some representative placeholder content for the third slide.
-        </p>
-      </div>
+        alt="Camera" />
+        <div class="color-black alignment"><p>Competitive programming involves solving algorithmic problems within a fixed time, online or offline, using programming languages like Java and Python. It requires knowledge of algorithms and maths, improves problem-solving skills and algorithmic thinking, and competitors are ranked based on their ability to solve problems.</p></div>
+    </div>
+    <div
+      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      data-te-carousel-item>
+      <img
+        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+        class="block w-full"
+        alt="Exotic Fruits" />
+        <div class="color-black alignment"><p>Android development creates mobile apps using Java and C++ with Android Studio. Developers design user interfaces, manage data, and optimize performance. Apps range from simple games to enterprise-level applications.</p></div>
+    </div>
+    <div
+      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      data-te-carousel-item>
+      <img
+        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+        class="block w-full"
+        alt="Exotic Fruits" />
+        <div class="color-black alignment"><p>Content writing is the process of planning, writing and editing web content, typically for digital marketing purposes. A Content Writer is a professional who writes informative and engaging articles to help brands showcase their products.</p></div>
+    </div>
+    <div
+      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      data-te-carousel-item>
+      <img
+        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+        class="block w-full"
+        alt="Exotic Fruits" />
+        <div class="color-black alignment"><p>Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience.</p></div>
+    </div>
+    <div
+      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      data-te-carousel-item>
+      <img
+        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+        class="block w-full"
+        alt="Exotic Fruits" />
+        <div class="color-black alignment"><p>PR and Outreach team helps in spreading our word to the community about the activities which take place in the club . A greater use of public speaking and building connections is aggregated here .</p></div>
+    </div>
+    <div
+      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      data-te-carousel-item>
+      <img
+        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+        class="block w-full"
+        alt="Exotic Fruits" />
+        <div class="color-black alignment"><p>Event management is the application of management skills and tests your leadership skills.  Event managers, also known as events managers, are responsible for planning, promoting and ensuring the smooth running of an event schedule and individual events.</p></div>
     </div>
   </div>
   <button
-    class="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+    class="absolute sm:px-32 top-0 bottom-0 left-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
     type="button"
-    data-te-target="#carouselExampleCaptions"
+    data-te-target="#carouselExampleControls"
     data-te-slide="prev">
     <span class="inline-block h-8 w-8">
       <svg
@@ -108,9 +96,9 @@
     >
   </button>
   <button
-    class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+    class="absolute sm:px-32 top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
     type="button"
-    data-te-target="#carouselExampleCaptions"
+    data-te-target="#carouselExampleControls"
     data-te-slide="next">
     <span class="inline-block h-8 w-8">
       <svg
@@ -131,6 +119,47 @@
       >Next</span
     >
   </button>
-  
 </div>
-</main>
+
+
+<style>
+.alignment {
+  position: absolute;
+  font-size: 1rem;
+  top: 40%;
+  padding-bottom: 20px;
+  width: 50%;
+  margin: 0 24%;
+  text-align: center;
+}
+@media screen and (max-width:1200px){
+  .alignment{
+    top: 40%;
+  font-size: 1rem;
+  }
+}
+@media screen and (max-width:950px){
+  .alignment{
+    top: 35%;
+  font-size: 0.8rem;
+  }
+}
+@media screen and (max-width:760px){
+  .alignment{
+    top: 30%;
+  font-size: 0.6rem;
+  }
+}
+@media screen and (max-width:450px){
+  .alignment{
+    top: 20%;
+  font-size: 0.5rem;
+  }
+}
+@media screen and (max-width:201px){
+  .alignment{
+    top: 20%;
+  font-size: 0.3rem;
+  }
+}
+</style>
