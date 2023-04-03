@@ -1,9 +1,10 @@
 
+
 <footer class="bg-black dark:bg-gray-900">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0 flex items-center flex-col">
-            <img src="src\routes\STIC NEW LOGO.png" alt="LoGo" class=" w-[100px] h-[100px]">
+            <img src="STIC NEW LOGO.png" alt="LoGo" class=" w-[100px] h-[100px]">
             <div class="px-4 py-6 bg-black dark:bg-gray-700 md:flex md:items-center md:justify-between">
                 <div class="flex flex-wrap mt-4 space-x-6 sm:justify-center md:mt-0">
                     <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
@@ -67,7 +68,7 @@
                 <li class="">
                     <form class="flex flex-wrap items-end py-0.5">   
                         
-                        <input type="email" class="w-64 my-1.5 mr-2 rounded-3xl bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your Email" required>
+                        <input type="email" class="w-[220px] my-1.5 mr-2 rounded-3xl bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your Email" required>
                        
     
                         <button type="submit" class="my-1.5 rounded-3xl inline-flex items-center py-2.5 px-8 text-sm font-medium text-white bg-[#00e4ff] border border-blue-700 hover:bg-[#10b8ca] focus:ring-1 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
