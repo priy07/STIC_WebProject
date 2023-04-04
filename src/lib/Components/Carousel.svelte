@@ -1,7 +1,7 @@
 <h1 class="font-outfit font-medium text-[48px] leading-none text-white text-center my-32 mb-12">Division</h1>
 <div
   id="carouselExampleControls"
-  class="relative sm:px-24 mx-10"
+  class="relative sm:px-24 mx-10 "
   data-te-carousel-init
   data-te-carousel-slide>
   <div
