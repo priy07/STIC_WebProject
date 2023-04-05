@@ -217,7 +217,7 @@
         id:17,
         name:'Mohit Namdev',
         position:"Co-Lead",
-        photo:'/testphoto.webp',
+        photo:'/Mohit.jpeg',
         insta:'https://www.instagram.com/mohit_namdev03/',
         linkedin:'https://www.linkedin.com/in/mohit-namdev-5a875221b/',
         github:''
