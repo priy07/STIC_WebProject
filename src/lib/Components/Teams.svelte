@@ -1,44 +1,44 @@
 
 <script src="https://kit.fontawesome.com/e837e124f1.js" crossorigin="anonymous">
-    const handles = [{
+     const handles = [{
         id:1,
         name:'Ishita Porwal',
         position:"President",
-        photo:'/testphoto.webp',
-        insta:'',
-        linkedin:'https://www.linkedin.com/in/yash-bajaj-170611228/',
+        photo:'/teamimages/Ishita.png',
+        insta:'https://www.instagram.com/ishitaporwal_/',
+        linkedin:'https://www.linkedin.com/in/ishita-porwal-4b36341bb/',
         github:''
     },{
         id:2,
         name:'Aviral Jain',
         position:"Vice-President",
-        photo:'/testphoto.webp',
-        insta:'',
-        linkedin:'',
+        photo:'/teamimages/Aviral.png',
+        insta:'https://www.instagram.com/aviraljainn_/',
+        linkedin:'https://www.linkedin.com/in/jainaviral/',
         github:''
     },{
         id:3,
         name:'Chaitanya Shrimali',
         position:"Technical Head",
-        photo:'/testphoto.webp',
-        insta:'',
-        linkedin:'',
+        photo:'/teamimages/Chaitanya.jfif',
+        insta:'https://www.instagram.com/chaitanya_shrimali/',
+        linkedin:'https://www.linkedin.com/in/chaitanyashrimali2002/',
         github:''
     },{
         id:4,
         name:'Darshita Porwal',
         position:"Non-Technical Head",
-        photo:'/testphoto.webp',
-        insta:'',
-        linkedin:'',
-        github:''
+        photo:'/teamimages/darshita.jfif',
+        insta:'https://instagram.com/_inside_minds__?igshid=YmMyMTA2M2Y=',
+        linkedin:'https://www.linkedin.com/in/darshitaporwal',
+        github:'https://github.com/Darshita2307'
     },{
         id:5,
         name:'Shreyash chauhan',
         position:"Treasurer",
-        photo:'/testphoto.webp',
-        insta:'',
-        linkedin:'',
+        photo:'/teamimages/shreyash.jfif',
+        insta:'https://www.instagram.com/shreyashchauhan/',
+        linkedin:'https://www.linkedin.com/in/shreyash-chauhan/',
         github:''
     }]
 </script>
@@ -58,7 +58,7 @@
 
     <!-- heading -->
     <div class="font-bold  text-center sm:text-center">
-        Executive Committee
+        Core Team
     </div>
     <!-- heading End -->
 

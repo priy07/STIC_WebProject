@@ -11,6 +11,7 @@
     import About from "../lib/Components/About.svelte";
     import Areyoureadypart from "../lib/Components/Areyoureadypart.svelte";
 	import Popup from "../lib/Components/Popup.svelte";
+    // import CompleteTeam from "../lib/Components/CompleteTeam.svelte";
 </script>
 
 <main class="bg-[#0E0D0D] text-white">
@@ -26,6 +27,7 @@
 <Teams/>
 <Areyoureadypart/>
 <Popup/>
+<!-- <CompleteTeam/> -->
 <Footer />
 
 </main>
