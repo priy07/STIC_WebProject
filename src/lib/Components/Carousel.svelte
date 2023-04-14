@@ -15,16 +15,16 @@
       data-te-carousel-active>
       <img
         src="Webd.jpg"
-        class="block sm:h-[450px] w-full"
+        class="block sm:h-[450px] w-full opacity-40 blur-[3px] "
         alt="Wild Landscape" />
-        <div class="color-black alignment"><p>Web development creates websites using programming languages like HTML and CSS, allowing organizations to establish an online presence and interact with customers in real-time. Developers use various skills to ensure the website meets requirements.</p></div>
+        <div class="color-black alignment font-inter leading-7  font-lg "><p>Web development creates websites using programming languages like HTML and CSS, allowing organizations to establish an online presence and interact with customers in real-time. Developers use various skills to ensure the website meets requirements.</p></div>
     </div>
     <div
       class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
       data-te-carousel-item>
       <img
         src="compi.jpg"
-        class="block sm:h-[450px] w-full"
+        class="block sm:h-[450px] w-full opacity-40 blur-[3px]"
         alt="Camera" />
         <div class="color-black alignment"><p>Competitive programming involves solving algorithmic problems within a fixed time, online or offline, using programming languages like Java and Python. It requires knowledge of algorithms and maths, improves problem-solving skills and algorithmic thinking, and competitors are ranked based on their ability to solve problems.</p></div>
     </div>
@@ -33,7 +33,7 @@
       data-te-carousel-item>
       <img
         src="anddev.jpg"
-        class="block sm:h-[450px] w-full"
+        class="block sm:h-[450px] w-full opacity-40 blur-[3px]"
         alt="Exotic Fruits" />
         <div class="color-black alignment"><p>Android development creates mobile apps using Java and C++ with Android Studio. Developers design user interfaces, manage data, and optimize performance. Apps range from simple games to enterprise-level applications.</p></div>
     </div>
@@ -42,7 +42,7 @@
       data-te-carousel-item>
       <img
         src="content.jpg"
-        class="block sm:h-[450px] w-full"
+        class="block sm:h-[450px] w-full opacity-40 blur-[3px]"
         alt="Exotic Fruits" />
         <div class="color-black alignment"><p>Content writing is the process of planning, writing and editing web content, typically for digital marketing purposes. A Content Writer is a professional who writes informative and engaging articles to help brands showcase their products.</p></div>
     </div>
@@ -51,7 +51,7 @@
       data-te-carousel-item>
       <img
         src="graphic.jpg"
-        class="block sm:h-[450px] w-full"
+        class="block sm:h-[450px] w-full opacity-40 blur-[3px]"
         alt="Exotic Fruits" />
         <div class="color-black alignment"><p>Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience.</p></div>
     </div>
@@ -60,7 +60,7 @@
       data-te-carousel-item>
       <img
         src="outreach.jpg"
-        class="block sm:h-[450px] w-full"
+        class="block sm:h-[450px] w-full opacity-40 blur-[3px]"
         alt="Exotic Fruits" />
         <div class="color-black alignment"><p>PR and Outreach team helps in spreading our word to the community about the activities which take place in the club . A greater use of public speaking and building connections is aggregated here .</p></div>
     </div>
@@ -69,7 +69,7 @@
       data-te-carousel-item>
       <img
         src="management.jpg"
-        class="block sm:h-[450px] w-full"
+        class="block sm:h-[450px] w-full opacity-40 blur-[3px]"
         alt="Exotic Fruits" />
         <div class="color-black alignment"><p>Event management is the application of management skills and tests your leadership skills.  Event managers, also known as events managers, are responsible for planning, promoting and ensuring the smooth running of an event schedule and individual events.</p></div>
     </div>
@@ -128,7 +128,7 @@
 <style>
 .alignment {
   position: absolute;
-  font-size: 1rem;
+  font-size: 1.5rem;
   top: 40%;
   padding-bottom: 20px;
   width: 50%;
