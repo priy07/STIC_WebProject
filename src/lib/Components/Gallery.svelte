@@ -5,44 +5,21 @@
 			<div>
 				<img
 					class="h-auto max-w-full rounded-lg"
-					src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
+					src="/meetup/IMG_1890.JPG"
 					alt=""
 				/>
 			</div>
 			<div>
 				<img
 					class="h-auto max-w-full rounded-lg"
-					src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg"
+					src="/meetup/IMG_1858.jpg"					
 					alt=""
 				/>
 			</div>
 			<div>
 				<img
 					class="h-auto max-w-full rounded-lg"
-					src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
-					alt=""
-				/>
-			</div>
-		</div>
-		<div class="grid gap-4">
-			<div>
-				<img
-					class="h-auto max-w-full rounded-lg"
-					src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
-					alt=""
-				/>
-			</div>
-			<div>
-				<img
-					class="h-auto max-w-full rounded-lg"
-					src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
-					alt=""
-				/>
-			</div>
-			<div>
-				<img
-					class="h-auto max-w-full rounded-lg"
-					src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
+					src="/meetup/IMG_1886.jpg"
 					alt=""
 				/>
 			</div>
@@ -51,21 +28,21 @@
 			<div>
 				<img
 					class="h-auto max-w-full rounded-lg"
-					src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
+					src="/meetup/IMG_1874.jpg"
 					alt=""
 				/>
 			</div>
 			<div>
 				<img
 					class="h-auto max-w-full rounded-lg"
-					src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
+					src="/meetup/IMG_1894.jpg"
 					alt=""
 				/>
 			</div>
 			<div>
 				<img
 					class="h-auto max-w-full rounded-lg"
-					src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
+					src="/meetup/IMG_1895.jpg"
 					alt=""
 				/>
 			</div>
@@ -74,21 +51,44 @@
 			<div>
 				<img
 					class="h-auto max-w-full rounded-lg"
-					src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
+					src="/meetup/IMG_1896.jpg"
 					alt=""
 				/>
 			</div>
 			<div>
 				<img
 					class="h-auto max-w-full rounded-lg"
-					src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
+					src="/meetup/IMG_1899.jpg"
 					alt=""
 				/>
 			</div>
 			<div>
 				<img
 					class="h-auto max-w-full rounded-lg"
-					src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg"
+					src="/meetup/IMG_1834.jpg"
+					alt=""
+				/>
+			</div>
+		</div>
+		<div class="grid gap-4">
+			<div>
+				<img
+					class="h-auto max-w-full rounded-lg"
+					src="/meetup/IMG_1865.jpg"
+					alt=""
+				/>
+			</div>
+			<div>
+				<img
+					class="h-auto max-w-full rounded-lg"
+					src="/meetup/IMG_1882.jpg"
+					alt=""
+				/>
+			</div>
+			<div>
+				<img
+					class="h-auto max-w-full rounded-lg"
+					src="/meetup/IMG_1874.jpg"
 					alt=""
 				/>
 			</div>

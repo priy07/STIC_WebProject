@@ -167,7 +167,7 @@
         id:21,
         name:'Insiya Arif',
         position:"Executive member",
-        photo:'/teamimages/unknown.png',
+        photo:'/teamimages/Insiya.jpg',
         insta:'https://www.instagram.com/insiya.arif/',
         linkedin:'https://www.linkedin.com/in/insiyaarif/',
         github:''

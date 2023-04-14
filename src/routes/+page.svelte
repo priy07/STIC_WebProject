@@ -15,26 +15,27 @@
 </script>
 
 <main class="bg-[#0E0D0D] text-white">
-	navbaar
+	<!-- navbaar -->
 	<Navbar />
-	homepage
+	<!-- homepage -->
 	<HomePage />
-	mento
+	<!-- mento -->
 	<Mentor />
-	gallery
+	<!-- gallery -->
 	<Gallery />
-	about
-	<About id="about" />crousel
+	<!-- about -->
+	<About id="about" />
+	<!-- crousel -->
 	<Carousel />
-	division
+	<!-- division -->
 	<Division />
-	membership
+	<!-- membership -->
 	<Membership />
-	teams
+	<!-- teams -->
 	<Teams />
-	are you ready
+	<!-- are you ready -->
 	<Areyoureadypart />
-	popup
+	<!-- popup -->
 	<Popup />
 	<!-- <CompleteTeam/> -->
 	<Footer />
