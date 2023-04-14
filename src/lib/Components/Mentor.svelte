@@ -1,4 +1,4 @@
-<div class=" ">
+<div class=" " id="cheifAdvisor">
 	<!-- nikita mam wala section-->
 	<h1 class=" xl-7xl lg:text-7xl md:text-5xl text-4xl text-center pt-16">Chief Advisor</h1>
 	<div class="flex flex-col sm:flex-row justify-between w-full p-20 relative">
@@ -13,6 +13,9 @@
 				learning new skills and tools which are close to the industrial standards.
 			</p>
 		</div>
+		<div
+			class="absolute w-96 h-96 bg-gradient-to-br from-blue-500 to-blue-700 rounded-full blur-[200px] right-0"
+		/>
 	</div>
 	<!--Dusre Sir wala section -->
 	<h1 class="xl-7xl lg:text-7xl md:text-5xl text-4xl text-center pt-16">Faculty Co-ordinator</h1>

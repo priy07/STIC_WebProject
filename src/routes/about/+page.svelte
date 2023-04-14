@@ -1,4 +1,4 @@
-<main class="pb-20 text-justify" id="about">
+<main class="pb-20 text-justify">
 	<h1 class="text-5xl font-bold text-center my-20 mb-10">
 		About <span
 			class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
