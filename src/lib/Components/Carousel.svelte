@@ -4,9 +4,6 @@
   class="relative sm:px-24 mx-10  "
   data-te-carousel-init
   data-te-carousel-slide>
-  <div class=" bg-black w-52 h-52 z-10 mt-6  ">
-
-  </div>
   <div
     class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
     <div
