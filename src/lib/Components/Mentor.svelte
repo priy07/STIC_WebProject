@@ -2,7 +2,7 @@
 	<!-- nikita mam wala section-->
 	<h1 class=" xl-7xl lg:text-7xl md:text-5xl text-4xl text-center pt-16">Chief Advisor</h1>
 	<div class="flex flex-col sm:flex-row justify-between w-full p-20 relative">
-		<div class="bg[url()] rounded-lg sm:w-[40%] w-full m-auto h-80 border border-slate-400" />
+		<div class="bg-top bg-cover bg-center rounded-lg sm:w-2/5 w-full m-auto h-80 border border-slate-400" style="background-image: url('/faculty_images/nikita_mam.jpeg');" />
 		<div class="sm:w-[50%] m-auto w-full">
 			<h2 class="xl:text-5xl lg:text-5xl md:5xl sm:4xl text-3xl p-5">Prof.Nitika Vats Doohan</h2>
 			<p class="text-justify p-5">
@@ -32,6 +32,6 @@
 			</p>
 		</div>
 
-		<div class="bg[url()] w-full sm:w-[40%] m-auto h-80 border border-slate-400" />
+		<div class="bg-top bg-cover bg-center rounded-lg sm:w-2/5 w-full m-auto h-80 border border-slate-400" style="background-image: url('/faculty_images/arpit_sir.jpeg');" />
 	</div>
 </div>
