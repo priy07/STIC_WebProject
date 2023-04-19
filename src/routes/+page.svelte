@@ -32,8 +32,6 @@
 	<!-- crousel -->
 	<Carousel />
 	<!-- division -->
-	<Division />
-	<!-- membership -->
 	<Membership />
 	<!-- teams -->
 	<Teams />
