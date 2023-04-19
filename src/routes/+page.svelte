@@ -1,4 +1,4 @@
-<script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
 	import Carousel from '../lib/Components/Carousel.svelte';
 	import Division from '../lib/Components/Division.svelte';
 	import Footer from '../lib/Components/Footer.svelte';
@@ -13,6 +13,10 @@
 	import Popup from '../lib/Components/Popup.svelte';
 	// import CompleteTeam from "../lib/Components/CompleteTeam.svelte";
 </script>
+
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 <main class="bg-[#0E0D0D] text-white">
 	<!-- navbaar -->
