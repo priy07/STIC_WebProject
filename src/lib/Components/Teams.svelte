@@ -34,7 +34,7 @@
         github:'https://github.com/Darshita2307'
     },{
         id:5,
-        name:'Shreyash chauhan',
+        name:'Shreyash Chauhan',
         position:"Treasurer",
         photo:'/teamimages/shreyash.jfif',
         insta:'https://www.instagram.com/shreyashchauhan/',
