@@ -102,7 +102,7 @@
         id:13,
         name:'Dimple Agrawal',
         position:"Lead",
-        photo:'/teamimages/unknown.png',
+        photo:'/teamimages/dimple.jpg',
         insta:'',
         linkedin:'https://www.linkedin.com/in/dimpleagrawal',
         github:''
@@ -249,7 +249,7 @@
         id:17,
         name:'Astha Saxena',
         position:"Executive member",
-        photo:'/teamimages/unknown.png',
+        photo:'/teamimages/astha.jpeg',
         insta:'https://www.instagram.com/im_asthasaxena/',
         linkedin:'https://www.linkedin.com/in/astha-saxena-72bb95250/',
         github:''
