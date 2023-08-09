@@ -1,5 +1,7 @@
-<script src="https://kit.fontawesome.com/e837e124f1.js" crossorigin="anonymous">
-	const handles = [
+<script crossorigin="anonymous">
+	import Member from '../../lib/Components/Member.svelte';
+	import 'iconify-icon';
+	const lead = [
 		{
 			id: 1,
 			name: 'Ishita Porwal',
@@ -413,393 +415,78 @@
 	</nav>
 	<!-- navbarEnd -->
 
-	<!-- heading -->
-	<div class="font-bold text-center sm:text-center text-[20px]">
-		<span
-			class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
-			>CORE
-		</span> Team Members
-	</div>
 	<!-- heading End -->
 
 	<!-- card Started -->
-
-	<section class="flex-wrap flex sm:flex-wrap sm:flex-shrink justify-around my-10">
-		{#each handles as { id, name, position, photo, insta, linkedin, github }, index (handles.id)}
-			<div class="card sm:flex-wrap flex-wrap px-24 pb-8">
-				<img class="rounded-full h-36 w-36 pl-2" src={photo} height="200" width="200" />
-
-				<h1 class="font-bold mt-5 text-xl px-5">{name}</h1>
-				<h2 class="text-center text-zinc-500 my-2 -ml-4">{position}</h2>
-
-				<section class="flex mx-4">
-					<div class="rounded">
-						<a
-							href={linkedin}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-blue-200"
-						>
-							<i class="fa-brands fa-linkedin-in" style="color: #008cb4;" /></a
-						>
-					</div>
-
-					<div class="rounded">
-						<a
-							href={insta}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-pink-200"
-							><i class="fa-brands fa-instagram" style="color: #61177c;" /></a
-						>
-					</div>
-					<div class="rounded">
-						<a
-							href={github}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-blue-200"><i class="fa-brands fa-github" /></a
-						>
-					</div>
-				</section>
-			</div>
+	<div class="flex flex-wrap justify-around">
+		<p class="font-bold text-2xl text-center sm:text-center text-[20px] w-full mt-10">
+			<span
+				class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
+				>CORE
+			</span> Team Members
+		</p>
+		{#each lead as item}
+			<Member obj={item} class="" />
 		{/each}
-	</section>
-	<div class="font-bold text-center sm:text-center text-[20px]">
-		<span
-			class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
-		>
-			Web Development</span
-		> Team Members
+
+		<p class="font-bold text-2xl text-center sm:text-center text-[20px] w-full mt-28">
+			<span
+				class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
+				>CORE
+			</span> Team Members
+		</p>
+		{#each eventManagement as item}
+			<Member obj={item} />
+		{/each}
+
+		<p class="font-bold text-2xl text-center sm:text-center text-[20px] w-full mt-28">
+			<span
+				class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
+				>CORE
+			</span> Team Members
+		</p>
+		{#each Corporate as item}
+			<Member obj={item} />
+		{/each}
+
+		<p class="font-bold text-2xl text-center sm:text-center text-[20px] w-full mt-28">
+			<span
+				class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
+				>CORE
+			</span> Team Members
+		</p>
+		{#each ContentTeam as item}
+			<Member obj={item} />
+		{/each}
+
+		<p class="font-bold text-2xl text-center sm:text-center text-[20px] w-full mt-28">
+			<span
+				class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
+				>CORE
+			</span> Team Members
+		</p>
+		{#each graphics as item}
+			<Member obj={item} />
+		{/each}
+
+		<p class="font-bold text-2xl text-center sm:text-center text-[20px] w-full mt-28">
+			<span
+				class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
+				>CORE
+			</span> Team Members
+		</p>
+		{#each webdev as item}
+			<Member obj={item} />
+		{/each}
+
+		<p class="font-bold text-2xl text-center sm:text-center text-[20px] w-full mt-28">
+			<span
+				class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
+				>CORE
+			</span> Team Members
+		</p>
+		{#each android as item}
+			<Member obj={item} />
+		{/each}
 	</div>
-	<!-- Card Started -->
-	<section class="flex-wrap flex sm:flex-wrap sm:flex-shrink justify-around my-10">
-		{#each webdev as { id, name, position, photo, insta, linkedin, github }, index (handles.id)}
-			<div class="card sm:flex-wrap flex-wrap px-24 pb-8">
-				<img class="rounded-full h-36 w-36 pl-2" src={photo} height="200" width="200" />
-
-				<h1 class="font-bold mt-5 text-xl px-5">{name}</h1>
-				<h2 class="text-center text-zinc-500 my-2 -ml-4">{position}</h2>
-
-				<section class="flex mx-4">
-					<div class="rounded">
-						<a
-							href={linkedin}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-blue-200"
-						>
-							<i class="fa-brands fa-linkedin-in" style="color: #008cb4;" /></a
-						>
-					</div>
-
-					<div class="rounded">
-						<a
-							href={insta}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-pink-200"
-							><i class="fa-brands fa-instagram" style="color: #61177c;" /></a
-						>
-					</div>
-					<div class="rounded">
-						<a
-							href={github}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-blue-200"><i class="fa-brands fa-github" /></a
-						>
-					</div>
-				</section>
-			</div>
-		{/each}
-	</section>
-	<!-- card ended -->
-
-	<div class="font-bold text-center sm:text-center text-[20px]">
-		<span
-			class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
-		>
-			Corporate & PR Outreach
-		</span> Team Members
-	</div>
-	<section class="flex-wrap flex sm:flex-wrap sm:flex-shrink justify-around my-10">
-		{#each Corporate as { id, name, position, photo, insta, linkedin, github }, index (handles.id)}
-			<div class="card sm:flex-wrap flex-wrap px-24 pb-8">
-				<img class="rounded-full h-36 w-36 pl-2" src={photo} height="200" width="200" />
-
-				<h1 class="font-bold mt-5 text-xl px-5">{name}</h1>
-				<h2 class="text-center text-zinc-500 my-2 -ml-4">{position}</h2>
-
-				<section class="flex mx-4">
-					<div class="rounded">
-						<a
-							href={linkedin}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-blue-200"
-						>
-							<i class="fa-brands fa-linkedin-in" style="color: #008cb4;" /></a
-						>
-					</div>
-
-					<div class="rounded">
-						<a
-							href={insta}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-pink-200"
-							><i class="fa-brands fa-instagram" style="color: #61177c;" /></a
-						>
-					</div>
-					<div class="rounded">
-						<a
-							href={github}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-blue-200"><i class="fa-brands fa-github" /></a
-						>
-					</div>
-				</section>
-			</div>
-		{/each}
-	</section>
-	<div class="font-bold text-center sm:text-center text-[20px]">
-		<span
-			class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
-		>
-			Content</span
-		> Team Members
-	</div>
-	<section class="flex-wrap flex sm:flex-wrap sm:flex-shrink justify-around my-10">
-		{#each ContentTeam as { id, name, position, photo, insta, linkedin, github }, index (handles.id)}
-			<div class="card sm:flex-wrap flex-wrap px-24 pb-8">
-				<img class="rounded-full h-36 w-36 pl-2" src={photo} height="200" width="200" />
-
-				<h1 class="font-bold mt-5 text-xl px-5">{name}</h1>
-				<h2 class="text-center text-zinc-500 my-2 -ml-4">{position}</h2>
-
-				<section class="flex mx-4">
-					<div class="rounded">
-						<a
-							href={linkedin}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-blue-200"
-						>
-							<i class="fa-brands fa-linkedin-in" style="color: #008cb4;" /></a
-						>
-					</div>
-
-					<div class="rounded">
-						<a
-							href={insta}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-pink-200"
-							><i class="fa-brands fa-instagram" style="color: #61177c;" /></a
-						>
-					</div>
-					<div class="rounded">
-						<a
-							href={github}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-blue-200"><i class="fa-brands fa-github" /></a
-						>
-					</div>
-				</section>
-			</div>
-		{/each}
-	</section>
-	<div class="font-bold text-center sm:text-center text-[20px]">
-		<span
-			class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
-		>
-			Graphics</span
-		> Team Members
-	</div>
-	<section class="flex-wrap flex sm:flex-wrap sm:flex-shrink justify-around my-10">
-		{#each graphics as { id, name, position, photo, insta, linkedin, github }, index (handles.id)}
-			<div class="card sm:flex-wrap flex-wrap px-24 pb-8">
-				<img class="rounded-full h-36 w-36 pl-2" src={photo} height="200" width="200" />
-
-				<h1 class="font-bold mt-5 text-xl px-5">{name}</h1>
-				<h2 class="text-center text-zinc-500 my-2 -ml-4">{position}</h2>
-
-				<section class="flex mx-4">
-					<div class="rounded">
-						<a
-							href={linkedin}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-blue-200"
-						>
-							<i class="fa-brands fa-linkedin-in" style="color: #008cb4;" /></a
-						>
-					</div>
-
-					<div class="rounded">
-						<a
-							href={insta}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-pink-200"
-							><i class="fa-brands fa-instagram" style="color: #61177c;" /></a
-						>
-					</div>
-					<div class="rounded">
-						<a
-							href={github}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-blue-200"><i class="fa-brands fa-github" /></a
-						>
-					</div>
-				</section>
-			</div>
-		{/each}
-	</section>
-	<div class="font-bold text-center sm:text-center text-[20px]">
-		<span
-			class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
-			>Event Management</span
-		> Team Members
-	</div>
-	<section class="flex-wrap flex sm:flex-wrap sm:flex-shrink justify-around my-10">
-		{#each eventManagement as { id, name, position, photo, insta, linkedin, github }, index (handles.id)}
-			<div class="card sm:flex-wrap flex-wrap px-24 pb-8">
-				<img class="rounded-full h-36 w-36 pl-2" src={photo} height="200" width="200" />
-
-				<h1 class="font-bold mt-5 text-xl px-5">{name}</h1>
-				<h2 class="text-center text-zinc-500 my-2 -ml-4">{position}</h2>
-
-				<section class="flex mx-4">
-					<div class="rounded">
-						<a
-							href={linkedin}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-blue-200"
-						>
-							<i class="fa-brands fa-linkedin-in" style="color: #008cb4;" /></a
-						>
-					</div>
-
-					<div class="rounded">
-						<a
-							href={insta}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-pink-200"
-							><i class="fa-brands fa-instagram" style="color: #61177c;" /></a
-						>
-					</div>
-					<div class="rounded">
-						<a
-							href={github}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-blue-200"><i class="fa-brands fa-github" /></a
-						>
-					</div>
-				</section>
-			</div>
-		{/each}
-	</section>
-	<div class="font-bold text-center sm:text-center text-[20px]">
-		<span
-			class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
-			>Competitive Programming
-		</span> Team Members
-	</div>
-	<section class="flex-wrap flex sm:flex-wrap sm:flex-shrink justify-around my-10">
-		{#each competitive as { id, name, position, photo, insta, linkedin, github }, index (handles.id)}
-			<div class="card sm:flex-wrap flex-wrap px-24 pb-8">
-				<img class="rounded-full h-36 w-36 pl-2" src={photo} height="200" width="200" />
-
-				<h1 class="font-bold mt-5 text-xl px-5">{name}</h1>
-				<h2 class="text-center text-zinc-500 my-2 -ml-4">{position}</h2>
-
-				<section class="flex mx-4">
-					<div class="rounded">
-						<a
-							href={linkedin}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-blue-200"
-						>
-							<i class="fa-brands fa-linkedin-in" style="color: #008cb4;" /></a
-						>
-					</div>
-
-					<div class="rounded">
-						<a
-							href={insta}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-pink-200"
-							><i class="fa-brands fa-instagram" style="color: #61177c;" /></a
-						>
-					</div>
-					<div class="rounded">
-						<a
-							href={github}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-blue-200"><i class="fa-brands fa-github" /></a
-						>
-					</div>
-				</section>
-			</div>
-		{/each}
-	</section>
-	<div class="font-bold text-center sm:text-center text-[20px]">
-		<span
-			class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
-		>
-			Android Development</span
-		> Team Members
-	</div>
-	<section class="flex-wrap flex sm:flex-wrap sm:flex-shrink justify-around my-10">
-		{#each android as { id, name, position, photo, insta, linkedin, github }, index (handles.id)}
-			<div class="card sm:flex-wrap flex-wrap px-24 pb-8">
-				<img class="rounded-full h-36 w-36 pl-2" src={photo} height="200" width="200" />
-
-				<h1 class="font-bold mt-5 text-xl px-5">{name}</h1>
-				<h2 class="text-center text-zinc-500 my-2 -ml-4">{position}</h2>
-
-				<section class="flex mx-4">
-					<div class="rounded">
-						<a
-							href={linkedin}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-blue-200"
-						>
-							<i class="fa-brands fa-linkedin-in" style="color: #008cb4;" /></a
-						>
-					</div>
-
-					<div class="rounded">
-						<a
-							href={insta}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-pink-200"
-							><i class="fa-brands fa-instagram" style="color: #61177c;" /></a
-						>
-					</div>
-					<div class="rounded">
-						<a
-							href={github}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mx-2 px-2 py-2 hover:bg-blue-200"><i class="fa-brands fa-github" /></a
-						>
-					</div>
-				</section>
-			</div>
-		{/each}
-	</section>
 </main>
