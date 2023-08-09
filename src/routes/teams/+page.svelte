@@ -432,7 +432,7 @@
 		<p class="font-bold text-2xl text-center sm:text-center text-[20px] w-full mt-28">
 			<span
 				class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
-				>CORE
+				>Event Managment
 			</span> Team Members
 		</p>
 		{#each eventManagement as item}
@@ -452,7 +452,7 @@
 		<p class="font-bold text-2xl text-center sm:text-center text-[20px] w-full mt-28">
 			<span
 				class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
-				>CORE
+				>Corporate
 			</span> Team Members
 		</p>
 		{#each ContentTeam as item}
@@ -462,7 +462,7 @@
 		<p class="font-bold text-2xl text-center sm:text-center text-[20px] w-full mt-28">
 			<span
 				class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
-				>CORE
+				>Graphics
 			</span> Team Members
 		</p>
 		{#each graphics as item}
@@ -472,7 +472,7 @@
 		<p class="font-bold text-2xl text-center sm:text-center text-[20px] w-full mt-28">
 			<span
 				class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
-				>CORE
+				>Web Dev*
 			</span> Team Members
 		</p>
 		{#each webdev as item}
@@ -482,7 +482,7 @@
 		<p class="font-bold text-2xl text-center sm:text-center text-[20px] w-full mt-28">
 			<span
 				class="bg-gradient-to-r from-blue-500 to-cyan-500 inline-block text-transparent bg-clip-text"
-				>CORE
+				>Android Dev
 			</span> Team Members
 		</p>
 		{#each android as item}
