@@ -18,7 +18,7 @@
 		src={`https://drive.google.com/uc?export=view&id=${image}`}
 		alt="Loading..."
 		srcset=""
-		class="w-60 h-52"
+		class="m-auto w-60 h-52"
 	/>
 	<p class="p-3">
 		<b>Name: </b>
