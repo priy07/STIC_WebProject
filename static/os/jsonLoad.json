@@ -9,5 +9,52 @@
             "svelte",
             "HonoJS"
         ]
-    }
+    },
+    {
+        "image": "1fwGiNLQaJfBUA5jiSlb4CW8IqPob7upa",
+        "name": "Mohammed Hamid",
+        "section": "CSE J",
+        "college": "Medicaps University",
+        "skills": [
+            "HTML",
+            "CSS",
+            "C++",
+            "Data Structures"
+        ]
+    },
+{
+        "image": "19E5wkYiVLoF7ZAy1vnGsN81KbTwtSS45/view",
+        "name": "ShubhLabh Shrivastava",
+        "section": "CS AI",
+        "college": "Medicaps University",
+        "skills": [
+            "C++",
+            "HTML"
+        ]
+    },
+ {
+        "image": "1k42FWsaN40sMR0dP7hiyb6tUhir-o8IU",
+        "name": "Samvardha Khandwe",
+        "section": "CSBS 2nd Year",
+        "college": "Medicaps University"
+    },
+
+   {
+        "image":"1lg4Nwmq1xk6UeaMTNpqj806q0BssUcpW",
+        "name":"Manas Singh Makhija",
+        "section":"CS Core",
+        "coleege":"Medicaps university"
+    },
+
+  {
+        "image": "1WOLuev_JeDlyMAuOUAwGxQv6p83m51Dc",
+        "name": "Kunal Khandale",
+        "section": "Cs IOT A",
+        "college": "Medicaps University",
+        "skills": [
+            "Frontend Devlopment",
+            "svelte",
+            "C++"
+        ]
+}
 ]
