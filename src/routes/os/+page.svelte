@@ -28,7 +28,8 @@
 			<Os
 				image={student.image}
 				name={student.name}
-				skills={student.skill}
+				skills={student.skills}
+				section={student.section}
 				college={student.college}
 			/>
 		{/each}
